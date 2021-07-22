@@ -1,0 +1,11 @@
+xorm reverse mysql root:123456@tcp(127.0.0.1:3306)/test?charset=utf8 xorm_models
+
+xorm_models ->  配置和模板格式目录，并且除了config和struct.go.tpl文件外的其他文件不允许放入
+
+xorm_models/config   genJson 设置为1 表示生成带json结构体
+
+xorm help reverse
+
+
+本地生活 242 - dc_dispatch
+xorm reverse mysql root:Rp000000@(10.1.1.245:3306)/dc_dispatch?charset=utf8mb4 xorm_models
